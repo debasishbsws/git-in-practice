@@ -30,6 +30,9 @@ GitHub, on the other hand, is a web-based platform that provides a user interfac
 
 # Configure Git
 
+- Download GIT - [Click Here](https://git-scm.com/downloads)
+- Create a Github Account - [Click Here](https://github.com) 
+
 I will assume that at this point you have installed Git. To verify this, you can run this command on the command line: `git --version`. This shows you the current version installed on you PC.
 
 The next thing you'll need to do is to set your `username` and `email`. Git will use this information to identify who made specific changes to files.
