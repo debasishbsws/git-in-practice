@@ -43,7 +43,7 @@ To set your username, type and execute these commands: `git config --global user
 > *This is done only once per respository*
 
 ```bash
-> git init
+git init
 ```
 
 <hr>
@@ -51,13 +51,13 @@ To set your username, type and execute these commands: `git config --global user
 `git add <file>` - This command is used to stage a file for commit. When you stage a file, you are telling Git that you want to include it in the next commit. You can stage multiple files at once by specifying multiple file names, or you can use the `git add .` command to stage all modified and untracked files.
 
 ```bash
-> git add Factorial.cpp 
+git add Factorial.cpp 
 ```
 
 or use wildcard to add all untracked/modified files to staging area at once 
 
 ```bash
-> git add .
+git add .
 ```
 
 <hr>
@@ -65,7 +65,7 @@ or use wildcard to add all untracked/modified files to staging area at once
 `git commit` - This command is used to save your changes to the repository. When you commit, you are creating a new snapshot of the repository that includes all the staged changes. _You should always include a commit message with each commit, which is a brief description of the changes you have made._
 
 ```bash
-> git commit -m "Added factorial"
+git commit -m "Added factorial"
 ```
 
 > If -m is not used, Vim editor will open.
@@ -89,7 +89,7 @@ git remote add origin https://github.com/debasishbsws/TinderForNorthEast.git
 > main : Name of branch which must be pushed to remote repository
 
 ```bash
-> git push origin main
+git push origin main
 ```
 
 <hr>
@@ -97,7 +97,7 @@ git remote add origin https://github.com/debasishbsws/TinderForNorthEast.git
 `git pull` - This command is used to retrieve updates from a remote repository and merge them into your local repository. When you pull, you are fetching any new commits from the remote repository and merging them into your local repository.
 
 ```bash
-> git pull origin main
+git pull origin main
 ```
 
 <hr>
@@ -105,7 +105,7 @@ git remote add origin https://github.com/debasishbsws/TinderForNorthEast.git
 `git clone <repository>` - This command is used to create a copy of an existing Git repository on your local machine. You can clone a repository from a remote server, such as GitHub, by specifying the `URL` of the repository. This is a useful command when you want to work on an existing project or contribute to an open-source project.
 
 ```bash
-> git clone https://github.com/debasishbsws/TinderForNorthEast.git
+git clone https://github.com/debasishbsws/TinderForNorthEast.git
 ```
 
 <hr>
