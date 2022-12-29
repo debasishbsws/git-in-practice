@@ -36,6 +36,15 @@ The next thing you'll need to do is to set your `username` and `email`. Git will
 
 To set your username, type and execute these commands: `git config --global user.name <YOUR_USERNAME>` and `git config --global user.email <YOUR_EMAIL>`. Just make sure to replace `<YOUR_USERNAME>` and `<YOUR_EMAIL>` with yours.
 
+```bash
+$ git config --global user.name
+debasishbsws
+$ git config --global user.email
+debasishbsws@algorithms.com
+```
+
+<hr>
+
 ## Here are some common Git commands that you may find useful:
 
 `git init` - This command is used to initialize a new Git repository on your local machine. It creates a new folder called "`.git`" in the current directory, which stores all the information about the repository, including the commit history and any configured branches.
